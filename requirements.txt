@@ -1,2 +1,5 @@
 mypy[faster-cache]==1.16.1
+pgvector==0.4.2
+psycopg[binary]==3.3.3
 ruff==0.15.1
+sentence-transformers==5.2.3
