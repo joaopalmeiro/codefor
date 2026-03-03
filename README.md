@@ -6,10 +6,22 @@
 
 ## Development
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
+Install [PostgreSQL](https://formulae.brew.sh/formula/postgresql@18), [pgvector](https://github.com/pgvector/pgvector), and [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
+
+```bash
+brew install postgresql@18
+```
+
+```bash
+brew install pgvector
+```
 
 ```bash
 curl -LsSf https://astral.sh/uv/0.8.12/install.sh | sh
+```
+
+```bash
+LC_ALL="en_US.UTF-8" /opt/homebrew/opt/postgresql@18/bin/postgres -D /opt/homebrew/var/postgresql@18
 ```
 
 ```bash
@@ -29,7 +41,7 @@ uv pip install -r requirements.txt
 ```
 
 ```bash
-python 01.py
+python index.py
 ```
 
 ```bash
