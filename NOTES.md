@@ -35,6 +35,11 @@
 - https://huggingface.co/models?library=sentence-transformers&sort=trending&search=code
 - https://huggingface.co/models?library=sentence-transformers&sort=created&search=code
 - https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-NOT-NULL
+- https://nebius.com/services/token-factory
+- https://vickiboykis.com/what_are_embeddings/
+- https://github.com/dholzmueller/pytabkit
+- https://github.com/Psy-Fer/kuva
+  - https://psy-fer.github.io/kuva/plots/bar.html
 
 ## Commands
 
